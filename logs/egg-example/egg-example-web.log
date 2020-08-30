@@ -1,0 +1,756 @@
+2020-08-05 00:09:05,308 ERROR 14956 [-/::1/-/19ms GET /login?account=1212&pwd=123] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:23:20)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:8:50)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 14956
+hostname: DESKTOP-78JG35B
+
+2020-08-05 00:09:16,164 ERROR 1084 [-/::1/-/13ms GET /login?account=1212&pwd=123] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:23:20)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:8:50)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 1084
+hostname: DESKTOP-78JG35B
+
+2020-08-05 00:09:17,264 ERROR 14660 [-/::1/-/17ms GET /login?account=1212&pwd=123] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:23:20)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:8:50)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 14660
+hostname: DESKTOP-78JG35B
+
+2020-08-05 00:09:17,412 ERROR 14660 [-/::1/-/2ms GET /login?account=1212&pwd=123] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:23:20)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:8:50)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 14660
+hostname: DESKTOP-78JG35B
+
+2020-08-05 00:09:17,904 ERROR 14660 [-/::1/-/2ms GET /login?account=1212&pwd=123] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:23:20)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:8:50)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 14660
+hostname: DESKTOP-78JG35B
+
+2020-08-05 00:09:34,285 ERROR 14660 [-/::1/-/1ms GET /login?account=1212&pwd=123] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:23:20)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:8:50)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 14660
+hostname: DESKTOP-78JG35B
+
+2020-08-05 22:27:48,064 ERROR 6084 [-/::1/-/18ms GET /login?account=123123] nodejs.ReferenceError: reslut is not defined
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:29:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.login (D:\projects\egg-example\app\controller\login.js:8:26)
+    at async D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\projects\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\projects\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6084
+hostname: DESKTOP-78JG35B
+
+2020-08-05 22:28:24,131 ERROR 13556 [-/::1/-/22ms GET /login?account=123123] nodejs.ReferenceError: reslut is not defined
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:28:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.login (D:\projects\egg-example\app\controller\login.js:8:26)
+    at async D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\projects\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\projects\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13556
+hostname: DESKTOP-78JG35B
+
+2020-08-05 22:44:05,055 ERROR 11280 [-/::1/-/20ms GET /login?account=test] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'pwd' in 'where clause'
+    at Query.Sequence._packetToError (D:\projects\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\projects\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\projects\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\projects\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\projects\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\projects\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\projects\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\projects\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (D:\projects\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\projects\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\projects\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\projects\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\projects\egg-example\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\projects\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\projects\egg-example\node_modules\co\index.js:65:19)
+    at D:\projects\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `account` = 'test' AND `pwd` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'pwd' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `account` = 'test' AND `pwd` IS NULL LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11280
+hostname: DESKTOP-78JG35B
+
+2020-08-05 22:55:46,366 ERROR 11140 [-/::1/-/17ms GET /login?account=test] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'pwd' in 'where clause'
+    at Query.Sequence._packetToError (D:\projects\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\projects\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\projects\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\projects\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\projects\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\projects\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\projects\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\projects\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (D:\projects\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\projects\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\projects\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\projects\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\projects\egg-example\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\projects\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\projects\egg-example\node_modules\co\index.js:65:19)
+    at D:\projects\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `account` = 'test' AND `pwd` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'pwd' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `account` = 'test' AND `pwd` IS NULL LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11140
+hostname: DESKTOP-78JG35B
+
+2020-08-05 23:29:10,432 ERROR 7412 [-/127.0.0.1/-/5ms GET /user/1] nodejs.ReferenceError: Options is not defined
+    at forbidIp (D:\projects\egg-example\app\middleware\forbidIp.js:3:21)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 7412
+hostname: DESKTOP-78JG35B
+
+2020-08-05 23:29:45,023 ERROR 7412 [-/127.0.0.1/-/1ms GET /login?account=test] nodejs.ReferenceError: Options is not defined
+    at forbidIp (D:\projects\egg-example\app\middleware\forbidIp.js:3:21)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 7412
+hostname: DESKTOP-78JG35B
+
+2020-08-05 23:30:16,027 ERROR 7412 [-/127.0.0.1/-/1ms GET /login?account=test] nodejs.ReferenceError: Options is not defined
+    at forbidIp (D:\projects\egg-example\app\middleware\forbidIp.js:3:21)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 7412
+hostname: DESKTOP-78JG35B
+
+2020-08-05 23:30:23,172 ERROR 8980 [-/127.0.0.1/-/140ms GET /login?account=test] nodejs.ReferenceError: clientIp is not defined
+    at D:\projects\egg-example\app\middleware\forbidIp.js:11:25
+    at Array.some (<anonymous>)
+    at forbidIp (D:\projects\egg-example\app\middleware\forbidIp.js:10:29)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 8980
+hostname: DESKTOP-78JG35B
+
+2020-08-05 23:30:40,886 ERROR 7508 [-/127.0.0.1/-/22ms GET /login?account=test] nodejs.ReferenceError: clientIp is not defined
+    at D:\projects\egg-example\app\middleware\forbidIp.js:11:25
+    at Array.some (<anonymous>)
+    at forbidIp (D:\projects\egg-example\app\middleware\forbidIp.js:10:29)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 7508
+hostname: DESKTOP-78JG35B
+
+2020-08-08 15:52:22,707 ERROR 7408 [-/::1/-/7ms GET /login?account=test] nodejs.TypeError: Cannot read property 'cookies' of undefined
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:30)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 7408
+hostname: DESKTOP-78JG35B
+
+2020-08-08 15:53:21,260 ERROR 4732 [-/::1/-/6ms GET /login?account=test] nodejs.TypeError: Cannot read property 'cookies' of undefined
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:30)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 4732
+hostname: DESKTOP-78JG35B
+
+2020-08-08 15:56:57,469 ERROR 4732 [-/127.0.0.1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'cookies' of undefined
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:30)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 4732
+hostname: DESKTOP-78JG35B
+
+2020-08-08 16:04:17,968 ERROR 4732 [-/127.0.0.1/-/1ms GET /login?account=test] nodejs.TypeError: Cannot read property 'cookies' of undefined
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:30)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 4732
+hostname: DESKTOP-78JG35B
+
+2020-08-08 16:05:15,630 ERROR 4732 [-/127.0.0.1/-/1ms GET /login?account=test] nodejs.TypeError: Cannot read property 'cookies' of undefined
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:30)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 4732
+hostname: DESKTOP-78JG35B
+
+2020-08-08 22:15:19,753 ERROR 13716 [-/::1/-/11ms GET /login?account=test] nodejs.TypeError: cookie.find is not a function
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:5:28)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 13716
+hostname: DESKTOP-78JG35B
+
+2020-08-08 22:15:33,649 ERROR 13716 [-/::1/-/2ms GET /login?account=test] nodejs.TypeError: cookie.find is not a function
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:5:28)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 13716
+hostname: DESKTOP-78JG35B
+
+2020-08-08 23:01:51,828 ERROR 7728 [-/::1/-/5ms GET /login?account=1212&pwd=1234] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at Object.get cookiesObj [as cookiesObj] (D:\projects\egg-example\app\extend\context.js:8:23)
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:16)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 7728
+hostname: DESKTOP-78JG35B
+
+2020-08-08 23:03:44,701 ERROR 5452 [-/::1/-/12ms GET /login?account=1212&pwd=1234] nodejs.ReferenceError: cookie is not defined
+    at Object.get cookiesObj [as cookiesObj] (D:\projects\egg-example\app\extend\context.js:7:9)
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:16)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 5452
+hostname: DESKTOP-78JG35B
+
+2020-08-08 23:03:56,802 ERROR 6976 [-/::1/-/12ms GET /login?account=1212&pwd=1234] nodejs.ReferenceError: cookie is not defined
+    at Object.get cookiesObj [as cookiesObj] (D:\projects\egg-example\app\extend\context.js:7:9)
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:16)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 6976
+hostname: DESKTOP-78JG35B
+
+2020-08-08 23:03:59,219 ERROR 6976 [-/::1/-/0ms GET /login?account=1212&pwd=1234] nodejs.ReferenceError: cookie is not defined
+    at Object.get cookiesObj [as cookiesObj] (D:\projects\egg-example\app\extend\context.js:7:9)
+    at checkLogin (D:\projects\egg-example\app\middleware\checkLogin.js:3:16)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 6976
+hostname: DESKTOP-78JG35B
+
+2020-08-08 23:14:13,593 ERROR 11784 [-/::1/-/16ms GET /login?account=admin&pwd=admin] nodejs.TypeError: this.app.redis is not a function
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:15:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\projects\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\projects\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\projects\egg-example\node_modules\koa-static-cache\index.js:41:56
+
+pid: 11784
+hostname: DESKTOP-78JG35B
+
+2020-08-08 23:18:56,149 ERROR 6348 [-/::1/-/22ms GET /login?account=admin&pwd=admin] nodejs.TypeError: this.app.redis is not a function
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:15:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\projects\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\projects\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\projects\egg-example\node_modules\koa-static-cache\index.js:41:56
+
+pid: 6348
+hostname: DESKTOP-78JG35B
+
+2020-08-08 23:20:04,048 ERROR 8200 [-/::1/-/35ms GET /login?account=admin&pwd=admin] nodejs.TypeError: this.app.redis is not a function
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:15:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\projects\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\projects\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\projects\egg-example\node_modules\koa-static-cache\index.js:41:56
+
+pid: 8200
+hostname: DESKTOP-78JG35B
+
+2020-08-08 23:38:07,878 ERROR 11624 [-/::1/-/24ms GET /login?account=admin&pwd=admin] nodejs.TypeError: ctx.service.redis.set is not a function
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:16:37)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\projects\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\projects\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\projects\egg-example\node_modules\koa-static-cache\index.js:41:56
+
+pid: 11624
+hostname: DESKTOP-78JG35B
+
+2020-08-29 15:32:39,778 ERROR 14540 [-/::1/-/54ms GET /login?account=test&pwd=test12] nodejs.ReferenceError: ctx is not defined
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:9:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.login (D:\projects\egg-example\app\controller\login.js:13:26)
+    at async D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\projects\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\projects\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 14540
+hostname: DESKTOP-78JG35B
+
+2020-08-29 15:33:03,958 ERROR 14976 [-/::1/-/30ms GET /login?account=test&pwd=test12] nodejs.ReferenceError: ctx is not defined
+    at LoginService.find (D:\projects\egg-example\app\service\login.js:9:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.login (D:\projects\egg-example\app\controller\login.js:13:26)
+    at async D:\projects\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\projects\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\projects\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\projects\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 14976
+hostname: DESKTOP-78JG35B
+
+2020-08-29 15:33:46,675 ERROR 13688 [-/::1/-/25ms GET /login?account=test&pwd=test12] nodejs.InternalServerError: 错误了
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:9:18)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "错误了"
+pid: 13688
+hostname: DESKTOP-78JG35B
+
+2020-08-29 15:59:23,219 ERROR 14968 [-/::1/-/17ms GET /login] nodejs.Error: 用户名、密码不得为空
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:19)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 14968
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:17:44,565 ERROR 11740 [-/::1/-/12ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 11740
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:18:02,569 ERROR 1864 [-/::1/-/20ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 1864
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:18:04,841 ERROR 1864 [-/::1/-/2ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 1864
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:18:05,970 ERROR 11592 [-/::1/-/19ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 11592
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:20:50,145 ERROR 15132 [-/::1/-/10ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 15132
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:20:51,619 ERROR 15132 [-/::1/-/2ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 15132
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:20:52,621 ERROR 15132 [-/::1/-/1ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 15132
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:20:57,787 ERROR 15132 [-/::1/-/1ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 15132
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:23:37,934 ERROR 14856 [-/::1/-/7ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 14856
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:24:10,089 ERROR 14856 [-/::1/-/2ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 14856
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:24:23,565 ERROR 14948 [-/::1/-/17ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 14948
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:24:29,175 ERROR 11316 [-/::1/-/15ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 11316
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:24:37,030 ERROR 11316 [-/::1/-/2ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 11316
+hostname: DESKTOP-78JG35B
+
+2020-08-29 16:24:38,561 ERROR 11316 [-/::1/-/0ms GET /login] nodejs.InternalServerError: 故意出错
+    at Object.throw (D:\projects\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.login (D:\projects\egg-example\app\controller\login.js:10:22)
+    at Object.callFn (D:\projects\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\projects\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\projects\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\projects\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\projects\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\projects\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+message: "故意出错"
+pid: 11316
+hostname: DESKTOP-78JG35B
+
