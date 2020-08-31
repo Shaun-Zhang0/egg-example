@@ -1,7 +1,5 @@
 const Controller = require('egg').Controller;
-const errorCode = require("./../../config/errorCode");
 
-// const errorCode = require('')
 const utility = require('utility');
 
 class LoginController extends Controller {
@@ -23,10 +21,18 @@ class LoginController extends Controller {
          */
         if (userInfo.code > 0) {
             const timeStamp = new Date().getTime();
-            await ctx.service.redis.set(utility.md5(timeStamp+ account), {account}, 500);
+            await ctx.service.redis.set(utility.md5(timeStamp + account), {account}, 500);
             userInfo.token = utility.md5(timeStamp + account);
         }
         ctx.body = userInfo;
+    }
+
+    // 登出
+    async logout() {
+        const {ctx} = this;
+        const {cookiesObj} = ctx; // 获取cookie的信息
+        await ctx.service.redis.delete(cookiesObj.key);
+        ctx.body = {code: 1, message: '注销成功'};
     }
 }
 

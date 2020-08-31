@@ -1,6 +1,6 @@
 module.exports = {
     /**
-     * 获取请求带的cookie 并转换为对象
+     * 获取请求带的cookie字符串 并转换为对象(便于获取cookie的值)
      */
     get cookiesObj() {
         let cookieStr = this.request.header.cookie;
@@ -18,4 +18,4 @@ module.exports = {
         }
         return obj;
     }
-}
+};

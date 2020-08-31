@@ -1018,3 +1018,1144 @@ name: "unhandledExceptionError"
 pid: 7328
 hostname: DESKTOP-78JG35B
 
+2020-08-31 19:29:38,300 ERROR 59112 [egg-redis] client error: Error: read ECONNRESET
+2020-08-31 19:29:38,308 ERROR 59112 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:39,387 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:39,391 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:40,502 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:40,505 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:41,673 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:41,677 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:42,890 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:42,892 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:44,156 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:44,162 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:45,479 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:45,483 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:46,850 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:46,853 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:48,270 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:48,272 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:49,732 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:49,734 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:51,247 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:51,249 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:52,813 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:52,819 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:54,435 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:54,438 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:56,099 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:56,103 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:29:57,816 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:29:57,820 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:02,203 ERROR 59112 [egg-redis] client error: Error: read ECONNRESET
+2020-08-31 19:30:02,208 ERROR 59112 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:03,268 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:03,274 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:04,412 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:04,415 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:05,575 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:05,579 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:06,793 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:06,796 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:08,057 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:08,061 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:09,377 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:09,409 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:10,804 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:10,806 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:12,223 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:12,226 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:13,686 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:13,689 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:15,199 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:15,203 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:16,766 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:16,767 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:18,383 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:18,386 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:20,043 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:20,047 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:21,761 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:21,764 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:23,528 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:23,531 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:25,342 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:25,345 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:27,207 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:27,210 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:29,127 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:29,130 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:31,091 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:31,093 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:33,109 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:33,118 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:33,129 ERROR 59112 [-/::1/-/22935ms GET /logout/] nodejs.MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (D:\projects\egg.js_example\node_modules\ioredis\built\redis\event_handler.js:172:37)
+    at Object.onceWrapper (events.js:286:20)
+    at Socket.emit (events.js:198:13)
+    at TCP._handle.close (net.js:606:12)
+
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:35,180 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:35,182 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:37,290 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:37,293 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:39,451 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:39,452 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:41,664 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:41,666 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:43,928 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:43,931 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:46,240 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:46,242 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:48,603 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:48,605 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:51,015 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:51,017 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:53,476 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:53,477 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:55,986 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:55,988 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:30:58,545 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:30:58,546 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:31:01,154 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:31:01,156 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:31:03,817 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:31:03,818 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:31:06,526 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:31:06,528 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:31:09,291 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:31:09,293 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:31:12,102 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:31:12,104 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:31:14,963 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:31:14,965 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:31:17,872 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:31:17,874 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:32:32,416 ERROR 25592 [egg-redis] client error: Error: read ECONNRESET
+2020-08-31 19:32:32,425 ERROR 25592 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:32,417 ERROR 59112 [egg-redis] client error: Error: read ECONNRESET
+2020-08-31 19:32:32,419 ERROR 59112 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:32:33,503 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:33,508 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:33,481 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:33,483 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:32:34,624 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:34,626 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:34,591 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:34,592 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:32:35,789 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:35,791 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:35,751 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:35,753 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:32:37,002 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:37,005 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:36,962 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:36,964 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:32:38,270 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:38,273 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:38,224 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:38,225 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:32:39,585 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:39,588 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:39,533 ERROR 59112 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:39,535 ERROR 59112 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 59112
+hostname: KING-20190716EU
+
+2020-08-31 19:32:40,948 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:40,950 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:42,359 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:42,362 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:43,832 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:43,836 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:45,349 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:45,354 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:46,915 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:46,919 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:48,531 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:48,533 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:50,196 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:50,198 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:51,908 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:51,911 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:53,673 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:53,676 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:55,488 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:55,492 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:57,357 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:57,360 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:32:59,277 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:32:59,279 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:01,239 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:01,244 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:03,261 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:03,264 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:05,323 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:05,326 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:07,436 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:07,438 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:09,601 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:09,603 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:11,813 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:11,816 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:14,081 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:14,083 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:16,396 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:16,399 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:18,764 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:18,766 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:21,178 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:21,182 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:23,646 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:23,648 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:26,161 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:26,166 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:28,726 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:28,728 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:31,339 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:31,341 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+
+2020-08-31 19:33:33,998 ERROR 25592 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2020-08-31 19:33:34,001 ERROR 25592 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 25592
+hostname: KING-20190716EU
+

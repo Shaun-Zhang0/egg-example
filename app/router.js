@@ -4,4 +4,5 @@ module.exports = app => {
     router.get('/news',controller.news.list);
     router.get('/user/:id',controller.user.info);
     router.get("/login",controller.login.login);
+    router.get("/logout",controller.login.logout);
 };

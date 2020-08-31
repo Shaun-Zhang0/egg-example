@@ -50,15 +50,15 @@
       "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
       "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
     },
-    "LOGIN_INFO_ERROR": {
-      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
-      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
-    },
     "NOT_LOGIN": {
       "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
       "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
     },
     "USER_NOT_EXIST": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "LOGIN_INFO_ERROR": {
       "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
       "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
     }

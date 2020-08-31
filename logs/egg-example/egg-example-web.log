@@ -754,3 +754,12 @@ message: "故意出错"
 pid: 11316
 hostname: DESKTOP-78JG35B
 
+2020-08-31 19:30:33,137 ERROR 59112 [-/::1/-/22935ms GET /logout/] nodejs.MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (D:\projects\egg.js_example\node_modules\ioredis\built\redis\event_handler.js:172:37)
+    at Object.onceWrapper (events.js:286:20)
+    at Socket.emit (events.js:198:13)
+    at TCP._handle.close (net.js:606:12)
+
+pid: 59112
+hostname: KING-20190716EU
+

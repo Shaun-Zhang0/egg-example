@@ -8,7 +8,7 @@ class RedisService extends Service {
      * @param {*} time 过期时间
      */
     async set(key, value, time) {
-        const { redis } = this.app;
+        const {redis} = this.app;
         value = JSON.stringify(value);
         if (!time) {
             await redis.set(key, value)
@@ -16,18 +16,30 @@ class RedisService extends Service {
             await redis.set(key, value, 'EX', time);
         }
     }
+
     /**
      * 获取
-     * @param {*} key 
+     * @param {*} key
      */
     async get(key) {
-        const { redis } = this.app;
+        const {redis} = this.app;
         let data = await redis.get(key);
         if (!data) {
-            return false;  
+            return false;
         }
         data = JSON.stringify(data);
         return data;
     }
-} 
+
+    /**
+     * 删除redis中的token
+     * @param key
+     * @returns {Promise<number>}
+     */
+    async delete(key) {
+        const {redis} = this.app;
+        await redis.del(key);
+    }
+}
+
 module.exports = RedisService;
