@@ -1,79 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4cadada-e1ad-4960-ad51-c7f6d8036d15" name="Default Changelist" comment="feat: 完成checkLogin中间件&#10;feat: 修复不能获取cookie.key的问题&#10;feat: 继续补充错误码&#10;feat: 完成单点登录的逻辑">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/extend/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/extend/context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/service/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/service/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/service/redis.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/service/redis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/errorCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/errorCode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/egg-example/common-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/egg-example/common-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/egg-example/egg-agent.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/egg-example/egg-agent.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/egg-example/egg-example-web.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/egg-example/egg-example-web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/egg-example/egg-schedule.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/egg-example/egg-schedule.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/egg-example/egg-web.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/egg-example/egg-web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/agent_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/agent_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/agent_config_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/agent_config_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/agent_timing_68884.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/application_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_config_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/application_config_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_101880.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_104028.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_109500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_11072.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_114968.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_118208.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_121692.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_124700.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_126756.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_130432.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_131364.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_140508.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_142996.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_145404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_149100.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_153392.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_153508.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_158588.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_158648.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_163264.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_16748.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_17056.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_172300.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_180844.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_185724.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_189276.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_19112.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_191680.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_19236.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_192952.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_198292.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_198748.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_212116.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_215768.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_33628.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_3364.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_35216.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_38692.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_42708.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_50412.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_58096.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_63392.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_69860.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_73916.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_74628.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_75056.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_78196.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_8012.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_80560.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_86044.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_87032.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_89052.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_9328.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/router.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/router.json" afterDir="false" />
+    <list default="true" id="b4cadada-e1ad-4960-ad51-c7f6d8036d15" name="Default Changelist" comment="feat: &#10;- 完成checkLogin中间件&#10;- 修复不能获取cookie.key的问题&#10;- 继续补充错误码&#10;- 完成单点登录的逻辑&#10;- 添加登出功能&#10;- 补充注释">
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,16 +25,7 @@
         <entry file="file://$PROJECT_DIR$/config/config.default.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -137,11 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/extend/context.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            <state relative-caret-position="352">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="341">
+                <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -168,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/app/service/redis.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-155">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -208,7 +140,6 @@
         <option value="$PROJECT_DIR$/app/controller/user.js" />
         <option value="$PROJECT_DIR$/app/middleware/errorHandler.js" />
         <option value="$PROJECT_DIR$/app/middleware/checkLogin.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/config/errorCode.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/router.js" />
@@ -217,6 +148,7 @@
         <option value="$PROJECT_DIR$/app/service/redis.js" />
         <option value="$PROJECT_DIR$/config/config.default.js" />
         <option value="$PROJECT_DIR$/app/extend/context.js" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -317,7 +249,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598838106893</updated>
-      <workItem from="1598838108209" duration="28888000" />
+      <workItem from="1598838108209" duration="29099000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 完成checkLogin中间件&#10;feat: 修复不能获取cookie.key的问题&#10;feat: 继续补充错误码&#10;feat: 完成单点登录的逻辑">
       <created>1598869824342</created>
@@ -340,11 +272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598870060264</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: &#10;- 完成checkLogin中间件&#10;- 修复不能获取cookie.key的问题&#10;- 继续补充错误码&#10;- 完成单点登录的逻辑&#10;- 添加登出功能&#10;- 补充注释">
+      <created>1598874105533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598874105533</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28888000" />
+    <option name="totallyTimeSpent" value="29099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -357,8 +296,9 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49894625" weight="0.32924107" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49894625" visible="true" weight="0.30357143" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49894625" weight="0.30357143" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50105375" side_tool="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
@@ -402,7 +342,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 完成checkLogin中间件&#10;feat: 修复不能获取cookie.key的问题&#10;feat: 继续补充错误码&#10;feat: 完成单点登录的逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 完成checkLogin中间件&#10;feat: 修复不能获取cookie.key的问题&#10;feat: 继续补充错误码&#10;feat: 完成单点登录的逻辑" />
+    <MESSAGE value="feat: &#10;- 完成checkLogin中间件&#10;- 修复不能获取cookie.key的问题&#10;- 继续补充错误码&#10;- 完成单点登录的逻辑&#10;- 添加登出功能&#10;- 补充注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: &#10;- 完成checkLogin中间件&#10;- 修复不能获取cookie.key的问题&#10;- 继续补充错误码&#10;- 完成单点登录的逻辑&#10;- 添加登出功能&#10;- 补充注释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js">
@@ -481,16 +422,6 @@
     <entry file="file://$PROJECT_DIR$/app/middleware/forbidIp.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="217">
-            <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -557,21 +488,31 @@
     <entry file="file://$PROJECT_DIR$/app/service/redis.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-155">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.default.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/extend/context.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        <state relative-caret-position="352">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="341">
+            <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
