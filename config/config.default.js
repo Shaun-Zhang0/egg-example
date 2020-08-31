@@ -30,7 +30,7 @@ exports.mysql = {
     app: true,
     // 是否加载到 agent 上，默认关闭
     agent: false,
-}
+};
 exports.redis = {
     client: {
         port: 6379,
@@ -38,13 +38,19 @@ exports.redis = {
         password: '',
         db: 0
     }
-}
+};
 // 配置中间件
-exports.middleware = ['errorHandler'];
+exports.middleware = ['checkLogin','errorHandler'];
+
+exports.checkLogin={
+    enable:true,
+    ignore:['/login']
+};
 // exports.middleware = ['checkLogin']
 // // 配置forbidIp中间件的参数
 // exports.forbidIp = {
 //     forbidIps: ['127.0.0.1']
 // }
+
 
 exports.errorCode = errorCode;

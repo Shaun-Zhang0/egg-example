@@ -22,7 +22,7 @@ class RedisService extends Service {
      */
     async get(key) {
         const { redis } = this.app;
-        const data = await redis.get(key);
+        let data = await redis.get(key);
         if (!data) {
             return false;  
         }

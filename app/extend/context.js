@@ -5,9 +5,9 @@ module.exports = {
     get cookiesObj() {
         let cookieStr = this.request.header.cookie;
         if(!cookieStr){return null}
-        let obj = {}
+        let obj = {};
         if (cookieStr.indexOf(';') > 0) {
-            let hasSplitArr = cookieStr.split(';');
+            let hasSplitArr = cookieStr.split('; ');
             hasSplitArr.map(item => {
                 let itemArr = item.split('=');
                 obj[itemArr[0]] = itemArr[1];
