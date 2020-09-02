@@ -5,4 +5,5 @@ module.exports = app => {
     router.get('/user/:id',controller.user.info);
     router.get("/login",controller.login.login);
     router.get("/logout",controller.login.logout);
+    router.all("/register",controller.register.register);
 };

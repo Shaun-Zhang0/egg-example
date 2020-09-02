@@ -45,36 +45,9 @@
     "enable": "D:\\projects\\egg.js_example\\config\\config.default.js",
     "ignore": "D:\\projects\\egg.js_example\\config\\config.default.js"
   },
-  "errorCode": {
-    "PARAMS_EMPTY": {
-      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
-      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
-    },
-    "NOT_LOGIN": {
-      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
-      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
-    },
-    "USER_NOT_EXIST": {
-      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
-      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
-    },
-    "LOGIN_INFO_ERROR": {
-      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
-      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
-    }
-  },
-  "session": {
-    "maxAge": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js"
-  },
   "security": {
-    "domainWhiteList": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "D:\\projects\\egg.js_example\\config\\config.default.js",
       "type": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
       "ignoreJSON": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
       "useSession": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
@@ -85,6 +58,9 @@
       "queryName": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
       "value": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js"
@@ -122,6 +98,30 @@
       "ipBlackList": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "errorCode": {
+    "PARAMS_EMPTY": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "NOT_LOGIN": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "USER_NOT_EXIST": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "LOGIN_INFO_ERROR": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js"

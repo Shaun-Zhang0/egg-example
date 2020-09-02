@@ -40,17 +40,18 @@ exports.redis = {
     }
 };
 // 配置中间件
-exports.middleware = ['checkLogin','errorHandler'];
+exports.middleware = ['checkLogin', 'errorHandler'];
 
-exports.checkLogin={
-    enable:true,
-    ignore:['/login']
+exports.checkLogin = {
+    enable: true,
+    ignore: ['/login', '/register']
 };
 // exports.middleware = ['checkLogin']
 // // 配置forbidIp中间件的参数
 // exports.forbidIp = {
 //     forbidIps: ['127.0.0.1']
 // }
+exports.security = {csrf: {enable: false,}}
 
 
 exports.errorCode = errorCode;
