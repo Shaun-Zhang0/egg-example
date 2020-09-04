@@ -115,6 +115,14 @@
     "LOGIN_INFO_ERROR": {
       "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
       "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "USER_REGISTER_ERROR": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "USER_HAS_EXIST": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
     }
   },
   "session": {

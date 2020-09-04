@@ -9,8 +9,8 @@ class RegisterController extends Controller {
             ctx.throw(errorCode.PARAMS_EMPTY);
         } else {
             const userRegister = await ctx.service.register.addUser({account, password});
+            ctx.body = userRegister;
         }
-        // console.log(ctx.request.body);
     }
 }
 
