@@ -7,13 +7,15 @@ class UserService extends Service {
     }
 
     async getUserIdByName(account) {
-            const userInfo = await this.app.mysql.get('user', {account: account});
-    }
-    async checkUserExist(account){
         const userInfo = await this.app.mysql.get('user', {account: account});
-        if(userInfo===null){
+        return userInfo.userId;
+    }
+
+    async checkUserExist(account) {
+        const userInfo = await this.app.mysql.get('user', {account: account});
+        if (userInfo === null) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }

@@ -51,7 +51,9 @@ exports.checkLogin = {
 // exports.forbidIp = {
 //     forbidIps: ['127.0.0.1']
 // }
-exports.security = {csrf: {enable: false,}}
-
+exports.security = {csrf: {enable: false,}};
+exports.logger = {
+    outputJSON: true,
+};
 
 exports.errorCode = errorCode;

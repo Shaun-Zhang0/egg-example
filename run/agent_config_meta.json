@@ -99,6 +99,24 @@
       "checkAddress": "D:\\projects\\egg.js_example\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
+  "logger": {
+    "outputJSON": "D:\\projects\\egg.js_example\\config\\config.default.js",
+    "dir": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js"
+  },
   "errorCode": {
     "PARAMS_EMPTY": {
       "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
@@ -274,24 +292,6 @@
       "parameterLimit": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js"
     },
     "onerror": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js"
-  },
-  "logger": {
-    "dir": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": {
-      "consoleLevel": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.local.js"
-    },
-    "allowDebugAtProd": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
     "enableDNSCache": "D:\\projects\\egg.js_example\\node_modules\\egg\\config\\config.default.js",

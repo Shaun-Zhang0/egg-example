@@ -21,7 +21,8 @@ class LoginController extends Controller {
          */
         if (userInfo.code > 0) {
             const timeStamp = new Date().getTime();
-            await ctx.service.redis.set(utility.md5(timeStamp + account), {account}, 500);
+            const userId = await ctx.service.user.getUserIdByName(account);
+            await ctx.service.redis.set(utility.md5(timeStamp + account), {userId,account}, 500);
             userInfo.token = utility.md5(timeStamp + account);
         }
         ctx.body = userInfo;
