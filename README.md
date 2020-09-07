@@ -31,4 +31,5 @@ feat:
 ## 2020-09-07
 
 feat:
-- 
+- loginService 写入redis的token的value信息添加userID属性
+- 在errorHandler的捕获异常上添加日志写入
