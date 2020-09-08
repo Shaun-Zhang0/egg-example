@@ -8,6 +8,7 @@ class LoginController extends Controller {
         const {errorCode} = ctx.app.config;
         const objParams = ctx.query;
         const {account, pwd} = objParams;
+
         /**
          * 账号或者密码错误
          */
@@ -19,10 +20,10 @@ class LoginController extends Controller {
         /**
          * 判断cookie是否带有key
          */
-        if (cookiesObj.key) {
+        if (cookiesObj && cookiesObj.key) {
             const hasToken = await ctx.service.redis.get(cookiesObj.key);
             /**
-             * 判断key的value值是否存在redis中
+             * 判断key的value值是否存在redis中 如果存在
              */
             !!hasToken && await ctx.service.redis.delete(cookiesObj.key);
         }
@@ -35,6 +36,7 @@ class LoginController extends Controller {
         if (userInfo.code > 0) {
             const timeStamp = new Date().getTime();
             const userId = await ctx.service.user.getUserIdByName(account);
+            await ctx.service.login.recordLoginIp(account, timeStamp);
             await ctx.service.redis.set(utility.md5(timeStamp + account), {userId, account}, 500);
             userInfo.token = utility.md5(timeStamp + account);
         }

@@ -1,0 +1,184 @@
+2020-09-08 15:04:17,723 ERROR 155928 [-/10.11.170.65/-/1ms GET /login?account=test4&pwd=123123123] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 155928
+hostname: KING-20190716EU
+
+2020-09-08 15:04:22,150 ERROR 155928 [-/10.11.170.65/-/1ms GET /login?account=test4&pwd=123123123] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 155928
+hostname: KING-20190716EU
+
+2020-09-08 15:05:28,686 ERROR 147308 [-/10.11.170.65/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'key' of null
+    at checkLogin (D:\projects\egg.js_example\app\middleware\checkLogin.js:11:24)
+    at fn (D:\projects\egg.js_example\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg.js_example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg.js_example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg.js_example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+
+pid: 147308
+hostname: KING-20190716EU
+
+2020-09-08 15:05:52,133 ERROR 129928 [-/10.11.170.65/-/5ms GET /user/1] nodejs.TypeError: Cannot read property 'key' of null
+    at checkLogin (D:\projects\egg.js_example\app\middleware\checkLogin.js:11:24)
+    at fn (D:\projects\egg.js_example\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg.js_example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg.js_example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg.js_example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+
+pid: 129928
+hostname: KING-20190716EU
+
+2020-09-08 15:06:27,634 ERROR 129928 [-/10.11.170.65/-/3ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 129928
+hostname: KING-20190716EU
+
+2020-09-08 15:07:01,542 ERROR 129928 [-/10.11.170.65/-/1ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 129928
+hostname: KING-20190716EU
+
+2020-09-08 15:07:07,791 ERROR 129928 [-/10.11.170.65/-/1ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 129928
+hostname: KING-20190716EU
+
+2020-09-08 15:07:25,631 ERROR 167700 [-/10.11.170.65/-/9ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 167700
+hostname: KING-20190716EU
+
+2020-09-08 15:08:31,981 ERROR 167700 [-/10.11.170.65/-/41921ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 167700
+hostname: KING-20190716EU
+
+2020-09-08 15:10:21,081 ERROR 167700 [-/10.11.170.65/-/106581ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 167700
+hostname: KING-20190716EU
+
+2020-09-08 15:11:48,778 ERROR 147308 [-/10.11.133.187/-/1ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 147308
+hostname: KING-20190716EU
+
+2020-09-08 15:19:23,297 ERROR 147308 [-/10.11.170.65/-/1ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 147308
+hostname: KING-20190716EU
+
+2020-09-08 15:19:25,131 ERROR 147308 [-/10.11.170.65/-/1ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 147308
+hostname: KING-20190716EU
+
+2020-09-08 15:19:46,366 ERROR 147308 [-/10.11.86.123/-/0ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 147308
+hostname: KING-20190716EU
+
+2020-09-08 15:21:50,096 ERROR 89732 [-/10.11.170.65/-/5ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 89732
+hostname: KING-20190716EU
+
+2020-09-08 15:21:51,201 ERROR 89732 [-/10.11.170.65/-/0ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 89732
+hostname: KING-20190716EU
+
+2020-09-08 15:22:25,751 ERROR 54464 [-/10.11.86.123/-/6ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 54464
+hostname: KING-20190716EU
+
+2020-09-08 15:22:28,479 ERROR 54464 [-/10.11.86.123/-/1ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 54464
+hostname: KING-20190716EU
+
+2020-09-08 15:22:55,040 ERROR 54464 [-/10.11.86.123/-/0ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 54464
+hostname: KING-20190716EU
+
+2020-09-08 15:23:34,581 ERROR 4964 [-/10.11.86.123/-/7ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4964
+hostname: KING-20190716EU
+
+2020-09-08 15:23:42,446 ERROR 4964 [-/10.11.170.65/-/2ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4964
+hostname: KING-20190716EU
+
+2020-09-08 15:23:43,398 ERROR 4964 [-/10.11.170.65/-/1ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4964
+hostname: KING-20190716EU
+
+2020-09-08 15:23:45,863 ERROR 4964 [-/10.11.170.65/-/1ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4964
+hostname: KING-20190716EU
+
+2020-09-08 15:23:49,447 ERROR 4964 [-/10.11.170.65/-/2ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: Cannot read property 'key' of null
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4964
+hostname: KING-20190716EU
+

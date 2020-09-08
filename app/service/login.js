@@ -12,6 +12,11 @@ class LoginService extends Service {
         }
         return result;
     }
+
+    async recordLoginIp(account,timeStamp) {
+        const {request} = this.ctx;
+        await this.app.mysql.insert('login_record', {account: account, ip_address: request.ip,create_time: timeStamp});
+    }
 }
 
 module.exports = LoginService;
