@@ -15,6 +15,19 @@ class LoginController extends Controller {
             ctx.throw(errorCode.PARAMS_EMPTY);
             return false;
         }
+        const {cookiesObj} = ctx; // 获取cookie的信息
+        /**
+         * 判断cookie是否带有key
+         */
+        if (cookiesObj.key) {
+            const hasToken = await ctx.service.redis.get(cookiesObj.key);
+            /**
+             * 判断key的value值是否存在redis中
+             */
+            !!hasToken && await ctx.service.redis.delete(cookiesObj.key);
+        }
+
+
         const userInfo = await ctx.service.login.find(objParams);
         /**
          * 当用户登录成功, 存放一个token到redis
@@ -22,11 +35,12 @@ class LoginController extends Controller {
         if (userInfo.code > 0) {
             const timeStamp = new Date().getTime();
             const userId = await ctx.service.user.getUserIdByName(account);
-            await ctx.service.redis.set(utility.md5(timeStamp + account), {userId,account}, 500);
+            await ctx.service.redis.set(utility.md5(timeStamp + account), {userId, account}, 500);
             userInfo.token = utility.md5(timeStamp + account);
         }
         ctx.body = userInfo;
     }
+
 
     // 登出
     async logout() {

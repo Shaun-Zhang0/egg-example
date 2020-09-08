@@ -1,123 +1,135 @@
-2020-09-07 04:30:02,518 INFO 162524 [Job#159942420250682560021607337003] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
-2020-09-07 04:30:02,521 INFO 162524 [Job#159942420250682560021607337003] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 3ms
-2020-09-07 04:30:02,503 INFO 181668 [Job#159942420250382560021577483994] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
-2020-09-07 04:30:02,505 INFO 181668 [Job#159942420250382560021577483994] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 2ms
-2020-09-07 04:30:02,519 INFO 20308 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86397482ms at 2020-09-08 04:30:00.001
-2020-09-07 04:30:02,518 INFO 62332 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86397497ms at 2020-09-08 04:30:00.015
-2020-09-07 10:59:06,653 INFO 176012 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 10:59:06,653 INFO 176012 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 10:59:06,653 INFO 176012 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 11:00:06,011 INFO 133136 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 62993992ms at 2020-09-08 04:30:00.003
-2020-09-07 11:00:06,012 INFO 133136 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 46793989ms at 2020-09-08 00:00:00.001
-2020-09-07 11:00:06,012 INFO 133136 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 46794988ms at 2020-09-08 00:00:01.000
-2020-09-07 11:00:05,678 INFO 44580 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 11:00:05,678 INFO 44580 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 11:00:05,678 INFO 44580 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 11:01:24,094 INFO 208136 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 11:01:24,094 INFO 208136 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 11:01:24,094 INFO 208136 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 11:01:24,297 INFO 41464 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 11:01:24,297 INFO 41464 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 11:01:24,297 INFO 41464 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 11:24:28,799 INFO 45468 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 11:24:28,799 INFO 45468 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 11:24:28,799 INFO 45468 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 11:24:29,016 INFO 184516 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 11:24:29,016 INFO 184516 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 11:24:29,016 INFO 184516 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 14:52:52,334 INFO 33828 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 14:52:52,334 INFO 33828 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 14:52:52,334 INFO 33828 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 14:52:52,335 INFO 15448 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 14:52:52,335 INFO 15448 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 14:52:52,335 INFO 15448 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 14:59:27,515 INFO 149216 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 14:59:27,515 INFO 149216 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 14:59:27,515 INFO 149216 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 14:59:27,774 INFO 162080 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 14:59:27,774 INFO 162080 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 14:59:27,774 INFO 162080 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:00:55,202 INFO 26792 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:00:55,202 INFO 26792 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:00:55,202 INFO 26792 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:00:55,408 INFO 184224 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:00:55,408 INFO 184224 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:00:55,408 INFO 184224 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:43:58,028 INFO 129008 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:43:58,028 INFO 129008 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:43:58,028 INFO 129008 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:43:58,235 INFO 68332 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:43:58,235 INFO 68332 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:43:58,235 INFO 68332 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:45:15,923 INFO 111448 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:45:15,923 INFO 111448 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:45:15,923 INFO 111448 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:45:16,095 INFO 76996 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:45:16,095 INFO 76996 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:45:16,095 INFO 76996 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:46:21,236 INFO 47616 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:46:21,236 INFO 47616 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:46:21,236 INFO 47616 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:46:21,445 INFO 152792 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:46:21,445 INFO 152792 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:46:21,446 INFO 152792 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:47:24,417 INFO 210348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:47:24,417 INFO 210348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:47:24,417 INFO 210348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:47:24,684 INFO 75980 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:47:24,684 INFO 75980 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:47:24,684 INFO 75980 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:50:26,259 INFO 172524 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:50:26,259 INFO 172524 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:50:26,259 INFO 172524 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 15:50:26,849 INFO 72728 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 15:50:26,849 INFO 72728 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 15:50:26,849 INFO 72728 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:03:19,600 INFO 118348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:03:19,600 INFO 118348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:03:19,600 INFO 118348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:03:21,288 INFO 93956 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:03:21,289 INFO 93956 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:03:21,289 INFO 93956 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:04:12,463 INFO 22992 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:04:12,463 INFO 22992 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:04:12,463 INFO 22992 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:04:12,922 INFO 171692 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:04:12,922 INFO 171692 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:04:12,922 INFO 171692 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:20:21,594 INFO 98424 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:20:21,594 INFO 98424 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:20:21,594 INFO 98424 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:20:22,139 INFO 152052 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 43777865ms at 2020-09-08 04:30:00.004
-2020-09-07 16:20:22,140 INFO 152052 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27577861ms at 2020-09-08 00:00:00.001
-2020-09-07 16:20:22,140 INFO 152052 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27578860ms at 2020-09-08 00:00:01.000
-2020-09-07 16:23:56,369 INFO 169064 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:23:56,369 INFO 169064 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:23:56,370 INFO 169064 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:23:56,566 INFO 131496 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:23:56,566 INFO 131496 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:23:56,566 INFO 131496 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:33:09,456 INFO 42952 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 43010547ms at 2020-09-08 04:30:00.003
-2020-09-07 16:33:09,456 INFO 42952 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 26810544ms at 2020-09-08 00:00:00.000
-2020-09-07 16:33:09,457 INFO 42952 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 26811544ms at 2020-09-08 00:00:01.001
-2020-09-07 16:33:09,175 INFO 124868 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:33:09,175 INFO 124868 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:33:09,175 INFO 124868 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:33:38,699 INFO 133348 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 42981304ms at 2020-09-08 04:30:00.003
-2020-09-07 16:33:38,699 INFO 133348 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 26781301ms at 2020-09-08 00:00:00.000
-2020-09-07 16:33:38,700 INFO 133348 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 26782301ms at 2020-09-08 00:00:01.001
-2020-09-07 16:33:38,386 INFO 88684 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:33:38,386 INFO 88684 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:33:38,386 INFO 88684 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:34:19,535 INFO 23852 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:34:19,535 INFO 23852 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:34:19,535 INFO 23852 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:34:19,904 INFO 192720 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:34:19,904 INFO 192720 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:34:19,904 INFO 192720 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:35:49,176 INFO 160172 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:35:49,176 INFO 160172 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:35:49,176 INFO 160172 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-09-07 16:35:49,414 INFO 174936 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-09-07 16:35:49,414 INFO 174936 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-09-07 16:35:49,414 INFO 174936 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 04:30:01,189 INFO 68364 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86398815ms at 2020-09-09 04:30:00.004
+2020-09-08 04:30:01,186 INFO 108420 [Job#159951060118583423985769086991] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-09-08 04:30:01,190 INFO 108420 [Job#159951060118583423985769086991] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 4ms
+2020-09-08 10:41:45,394 INFO 20952 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:41:45,394 INFO 20952 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:41:45,394 INFO 20952 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:41:45,885 INFO 82076 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:41:45,885 INFO 82076 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:41:45,885 INFO 82076 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:42:45,740 INFO 144332 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64034265ms at 2020-09-09 04:30:00.005
+2020-09-08 10:42:45,741 INFO 144332 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47834259ms at 2020-09-09 00:00:00.000
+2020-09-08 10:42:45,741 INFO 144332 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47835259ms at 2020-09-09 00:00:01.000
+2020-09-08 10:42:45,325 INFO 31676 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:42:45,325 INFO 31676 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:42:45,325 INFO 31676 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:43:31,721 INFO 68580 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:43:31,721 INFO 68580 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:43:31,722 INFO 68580 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:43:32,183 INFO 17276 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:43:32,183 INFO 17276 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:43:32,183 INFO 17276 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:45:01,772 INFO 61624 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:45:01,772 INFO 61624 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:45:01,772 INFO 61624 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:45:02,284 INFO 71536 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:45:02,284 INFO 71536 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:45:02,284 INFO 71536 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:45:32,831 INFO 92348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:45:32,831 INFO 92348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:45:32,831 INFO 92348 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:45:33,261 INFO 188740 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63866743ms at 2020-09-09 04:30:00.004
+2020-09-08 10:45:33,262 INFO 188740 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47666738ms at 2020-09-09 00:00:00.000
+2020-09-08 10:45:33,262 INFO 188740 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47667738ms at 2020-09-09 00:00:01.000
+2020-09-08 10:47:04,635 INFO 99536 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:47:04,635 INFO 99536 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:47:04,635 INFO 99536 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:47:05,271 INFO 97848 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:47:05,271 INFO 97848 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:47:05,271 INFO 97848 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:47:06,882 INFO 96900 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:47:06,882 INFO 96900 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:47:06,882 INFO 96900 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:47:08,032 INFO 196884 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:47:08,032 INFO 196884 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:47:08,033 INFO 196884 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:47:09,903 INFO 154828 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:47:09,903 INFO 154828 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:47:09,903 INFO 154828 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:47:30,065 INFO 170904 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:47:30,065 INFO 170904 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:47:30,065 INFO 170904 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:47:30,538 INFO 185208 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63749466ms at 2020-09-09 04:30:00.004
+2020-09-08 10:47:30,539 INFO 185208 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47549461ms at 2020-09-09 00:00:00.000
+2020-09-08 10:47:30,539 INFO 185208 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47550461ms at 2020-09-09 00:00:01.000
+2020-09-08 10:48:12,651 INFO 33216 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:48:12,651 INFO 33216 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:48:12,651 INFO 33216 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:48:13,294 INFO 162392 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:48:13,294 INFO 162392 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:48:13,294 INFO 162392 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:50:24,203 INFO 135372 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:50:24,203 INFO 135372 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:50:24,203 INFO 135372 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:50:59,016 INFO 164456 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:50:59,016 INFO 164456 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:50:59,016 INFO 164456 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:51:27,890 INFO 159320 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:51:27,890 INFO 159320 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:51:27,890 INFO 159320 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:52:48,150 INFO 79520 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:52:48,150 INFO 79520 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:52:48,150 INFO 79520 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:52:59,092 INFO 190592 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:52:59,092 INFO 190592 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:52:59,092 INFO 190592 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:53:36,217 INFO 86860 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:53:36,217 INFO 86860 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:53:36,217 INFO 86860 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:54:32,259 INFO 27620 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:54:32,259 INFO 27620 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:54:32,259 INFO 27620 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:56:56,696 INFO 120084 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:56:56,696 INFO 120084 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:56:56,696 INFO 120084 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 10:59:46,345 INFO 116472 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 10:59:46,345 INFO 116472 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 10:59:46,345 INFO 116472 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:01:49,081 INFO 174932 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:01:49,081 INFO 174932 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:01:49,081 INFO 174932 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:01:50,922 INFO 186728 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:01:50,922 INFO 186728 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:01:50,922 INFO 186728 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:02:05,813 INFO 113716 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:02:05,813 INFO 113716 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:02:05,813 INFO 113716 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:03:18,816 INFO 160336 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:03:18,816 INFO 160336 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:03:18,817 INFO 160336 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:06:10,775 INFO 206784 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:06:10,775 INFO 206784 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:06:10,775 INFO 206784 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:06:26,998 INFO 96592 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:06:26,998 INFO 96592 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:06:26,998 INFO 96592 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:06:43,081 INFO 43984 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:06:43,081 INFO 43984 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:06:43,081 INFO 43984 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:06:44,793 INFO 36640 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:06:44,793 INFO 36640 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:06:44,793 INFO 36640 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:09:33,969 INFO 117244 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:09:33,969 INFO 117244 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:09:33,969 INFO 117244 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:11:04,386 INFO 68464 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:11:04,386 INFO 68464 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:11:04,386 INFO 68464 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:12:31,960 INFO 100912 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:12:31,960 INFO 100912 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:12:31,960 INFO 100912 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:12:50,627 INFO 164244 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:12:50,627 INFO 164244 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:12:50,627 INFO 164244 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:15:39,919 INFO 153544 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:15:39,919 INFO 153544 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:15:39,919 INFO 153544 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:17:44,433 INFO 69036 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:17:44,433 INFO 69036 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:17:44,433 INFO 69036 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-08 11:18:49,014 INFO 45628 [Timer] D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61870989ms at 2020-09-09 04:30:00.003
+2020-09-08 11:18:49,015 INFO 45628 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45670985ms at 2020-09-09 00:00:00.000
+2020-09-08 11:18:49,015 INFO 45628 [Timer] D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45671985ms at 2020-09-09 00:00:01.000
+2020-09-08 11:18:48,670 INFO 131224 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-08 11:18:48,670 INFO 131224 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-08 11:18:48,670 INFO 131224 [egg-schedule]: register schedule D:\projects\egg.js_example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
