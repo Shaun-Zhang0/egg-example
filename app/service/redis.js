@@ -27,7 +27,6 @@ class RedisService extends Service {
         if (!data) {
             return false;
         }
-        // data = JSON.parse(data);
         return data;
     }
 

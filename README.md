@@ -34,3 +34,10 @@ feat:
 feat:
 - loginService 写入redis的token的value信息添加userID属性
 - 在errorHandler的捕获异常上添加日志写入
+
+### 2020-09-08
+
+feat: 
+- 添加login的用户二次登录时 删除原先token的操作
+- 解决如果登录请求不带cookie 报错的情况
+- 添加login_record登录信息表 用于记录用户名、登录、以及时间

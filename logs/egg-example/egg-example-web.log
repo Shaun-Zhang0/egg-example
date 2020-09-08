@@ -182,3 +182,33 @@ hostname: KING-20190716EU
 pid: 4964
 hostname: KING-20190716EU
 
+2020-09-08 16:23:15,950 ERROR 60888 [-/10.11.170.65/-/4ms GET /] nodejs.TypeError: Cannot read property 'key' of null
+    at checkLogin (D:\projects\egg.js_example\app\middleware\checkLogin.js:11:24)
+    at fn (D:\projects\egg.js_example\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg.js_example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg.js_example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg.js_example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+
+pid: 60888
+hostname: KING-20190716EU
+
+2020-09-08 16:25:52,506 ERROR 60888 [-/10.11.170.65/-/0ms GET /] nodejs.TypeError: Cannot read property 'key' of null
+    at checkLogin (D:\projects\egg.js_example\app\middleware\checkLogin.js:11:24)
+    at fn (D:\projects\egg.js_example\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at D:\projects\egg.js_example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\projects\egg.js_example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\projects\egg.js_example\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\projects\egg.js_example\node_modules\koa-compose\index.js:42:32)
+
+pid: 60888
+hostname: KING-20190716EU
+

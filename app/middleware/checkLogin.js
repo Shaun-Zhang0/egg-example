@@ -8,7 +8,7 @@ module.exports = (options, app) => {
     return async function checkLogin(ctx, next) {
         const {cookiesObj} = ctx; // 获取cookie的信息
         const {errorCode} = ctx.app.config;
-        if (cookiesObj.key) {
+        if (cookiesObj&&cookiesObj.key) {
             /**
              * 判断redis中是否存在该token
              * 是 - 则认为当前用户已登录
