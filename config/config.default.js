@@ -44,7 +44,7 @@ exports.middleware = ['checkLogin', 'errorHandler'];
 
 exports.checkLogin = {
     enable: true,
-    ignore: ['/login', '/register']
+    ignore: ['/login', '/register','/get_product']
 };
 // exports.middleware = ['checkLogin']
 // // 配置forbidIp中间件的参数

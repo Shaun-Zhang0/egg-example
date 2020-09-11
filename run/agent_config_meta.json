@@ -141,6 +141,10 @@
     "USER_HAS_EXIST": {
       "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
       "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "PRODUCT_NOT_EXIST": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
     }
   },
   "session": {

@@ -26,5 +26,9 @@ module.exports = {
     'USER_HAS_EXIST': {
         code: -10005,
         message: '该用户已存在，请重新注册~'
+    },
+    'PRODUCT_NOT_EXIST': {
+        code: -30001,
+        message: '商品不存在'
     }
 };
