@@ -5,7 +5,7 @@ class ProductController extends Controller {
         const {ctx} = this;
         const {errorCode} = ctx.app.config;
         const objParams = ctx.query;
-        const productInfo = await ctx.service.product.findProduct(objParams.id);
+        const productInfo = await ctx.service.product.findProductById(objParams.id);
         if (productInfo) {
             ctx.body = productInfo;
         } else {
@@ -14,5 +14,4 @@ class ProductController extends Controller {
     }
 }
 
-module
-    .exports = ProductController;
+module.exports = ProductController;

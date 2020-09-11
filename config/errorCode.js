@@ -30,5 +30,9 @@ module.exports = {
     'PRODUCT_NOT_EXIST': {
         code: -30001,
         message: '商品不存在'
+    },
+    'CREATE_ORDER_ERROR': {
+        code: -40001,
+        message: '创建订单失败'
     }
 };

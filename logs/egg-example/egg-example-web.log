@@ -1,0 +1,70 @@
+2020-09-11 18:52:19,492 ERROR 84756 [-/10.11.170.65/-/14211ms GET /create_order] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 18:53:55,554 ERROR 84756 [-/10.11.170.65/-/50398ms GET /create_order] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 18:55:10,870 ERROR 84756 [-/10.11.170.65/-/70127ms GET /create_order?product_id=1&product_num=1] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 18:55:22,428 ERROR 84756 [-/10.11.170.65/-/9874ms GET /create_order?product_id=1&product_num=1] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 18:58:06,540 ERROR 84756 [-/10.11.170.65/-/162207ms GET /create_order?product_id=1&product_num=1] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 19:16:36,938 ERROR 106308 [-/10.11.170.65/-/13ms GET /create_order?product_id=1] nodejs.Error: InternalServerError: 参数缺失
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 106308
+hostname: KING-20190716EU
+
+2020-09-11 19:16:40,243 ERROR 106308 [-/10.11.170.65/-/11ms GET /create_order?product_id=1] nodejs.Error: InternalServerError: 参数缺失
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 106308
+hostname: KING-20190716EU
+
+2020-09-11 19:20:11,781 ERROR 164024 [-/10.11.170.65/-/5ms GET /create_order?product_id=2&product_num=1] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 164024
+hostname: KING-20190716EU
+
+2020-09-11 19:20:12,674 ERROR 164024 [-/10.11.170.65/-/5ms GET /create_order?product_id=2&product_num=1] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 164024
+hostname: KING-20190716EU
+
+2020-09-11 19:20:56,811 ERROR 164024 [-/10.11.170.65/-/2ms GET /create_order?product_id=2&product_num=1] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 164024
+hostname: KING-20190716EU
+

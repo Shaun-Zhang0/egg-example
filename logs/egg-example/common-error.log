@@ -1,0 +1,139 @@
+2020-09-11 18:52:19,477 ERROR 84756 [-/10.11.170.65/-/14211ms GET /create_order] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 18:53:55,529 ERROR 84756 [-/10.11.170.65/-/50398ms GET /create_order] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 18:55:04,743 ERROR 191292 nodejs.ClusterClientNoResponseError: client no response in 69180ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 191292
+hostname: KING-20190716EU
+
+2020-09-11 18:55:10,859 ERROR 84756 [-/10.11.170.65/-/70127ms GET /create_order?product_id=1&product_num=1] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 18:55:22,417 ERROR 84756 [-/10.11.170.65/-/9874ms GET /create_order?product_id=1&product_num=1] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 18:56:24,743 ERROR 191292 nodejs.ClusterClientNoResponseError: client no response in 73856ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 191292
+hostname: KING-20190716EU
+
+2020-09-11 18:58:06,527 ERROR 84756 [-/10.11.170.65/-/162207ms GET /create_order?product_id=1&product_num=1] nodejs.Error: TypeError: Cannot destructure property `productId` of 'undefined' or 'null'.
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84756
+hostname: KING-20190716EU
+
+2020-09-11 19:05:04,839 ERROR 99820 nodejs.ServerNoResponseError: server 127.0.0.1:58611 no response in 20736ms, maybe the socket is end on the other side. (address: 127.0.0.1:58611)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 99820
+hostname: KING-20190716EU
+
+2020-09-11 19:06:14,362 ERROR 18616 nodejs.ClusterClientNoResponseError: client no response in 64593ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 18616
+hostname: KING-20190716EU
+
+2020-09-11 19:16:36,930 ERROR 106308 [-/10.11.170.65/-/13ms GET /create_order?product_id=1] nodejs.Error: InternalServerError: 参数缺失
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 106308
+hostname: KING-20190716EU
+
+2020-09-11 19:16:40,230 ERROR 106308 [-/10.11.170.65/-/11ms GET /create_order?product_id=1] nodejs.Error: InternalServerError: 参数缺失
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 106308
+hostname: KING-20190716EU
+
+2020-09-11 19:18:54,401 ERROR 18616 nodejs.ClusterClientNoResponseError: client no response in 67633ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 18616
+hostname: KING-20190716EU
+
+2020-09-11 19:20:11,767 ERROR 164024 [-/10.11.170.65/-/5ms GET /create_order?product_id=2&product_num=1] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 164024
+hostname: KING-20190716EU
+
+2020-09-11 19:20:12,666 ERROR 164024 [-/10.11.170.65/-/5ms GET /create_order?product_id=2&product_num=1] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 164024
+hostname: KING-20190716EU
+
+2020-09-11 19:20:56,806 ERROR 164024 [-/10.11.170.65/-/2ms GET /create_order?product_id=2&product_num=1] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 164024
+hostname: KING-20190716EU
+
+2020-09-11 19:21:09,819 ERROR 18616 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18616
+hostname: KING-20190716EU
+
+2020-09-11 19:22:14,415 ERROR 18616 nodejs.ClusterClientNoResponseError: client no response in 62399ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 18616
+hostname: KING-20190716EU
+
