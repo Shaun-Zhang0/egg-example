@@ -1,0 +1,126 @@
+2020-09-14 14:42:55,803 ERROR 93284 [-/10.11.170.65/-/6ms GET /get_product?account=test&pwd=test] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 93284
+hostname: KING-20190716EU
+
+2020-09-14 14:42:57,393 ERROR 93284 [-/10.11.170.65/-/15ms GET /get_product?account=test&pwd=test] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 93284
+hostname: KING-20190716EU
+
+2020-09-14 14:43:10,772 ERROR 93284 [-/10.11.170.65/-/2ms GET /get_product?id=2] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 93284
+hostname: KING-20190716EU
+
+2020-09-14 14:43:12,052 ERROR 93284 [-/10.11.170.65/-/17ms GET /get_product?id=3] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 93284
+hostname: KING-20190716EU
+
+2020-09-14 14:43:13,286 ERROR 93284 [-/10.11.170.65/-/7ms GET /get_product?id=2] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 93284
+hostname: KING-20190716EU
+
+2020-09-14 16:48:48,250 ERROR 93284 [-/10.11.170.65/-/7368320ms GET /get_product?id=12] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 93284
+hostname: KING-20190716EU
+
+2020-09-14 16:54:41,008 INFO 54276 [-/10.11.170.65/-/44ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '36c99df9a0d8150b0512f819703296ff' }
+2020-09-14 17:32:50,233 INFO 74636 [-/10.11.170.65/-/49ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '89d9488f9f202363977f03912404868d' }
+2020-09-14 17:33:02,198 INFO 74636 [-/10.11.170.65/-/19ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '7c460fbd58cf6fcc1acbbd9494f006df' }
+2020-09-14 17:33:25,531 INFO 4984 [-/10.11.170.65/-/73ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: 'be6f8f038e72768ff95e1d9623ff7764' }
+2020-09-14 17:33:33,372 INFO 4984 [-/10.11.170.65/-/46ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: 'f442ef729836c1f5f99807773eea796c' }
+2020-09-14 17:33:44,447 INFO 4984 [-/10.11.170.65/-/100ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '3f51dfbff18fe19116172522aaf7a46b' }
+2020-09-14 17:38:27,416 INFO 76232 [-/10.11.170.65/-/86ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: 'b47a067c370128725f5a5d0a4aa0df40' }
+2020-09-14 17:38:32,395 INFO 76232 [-/10.11.170.65/-/47ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '9a5d590f8e77d94fcd74ddd849795036' }
+2020-09-14 17:40:53,496 INFO 84980 [-/10.11.170.65/-/49ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: 'ba6e1fc877a27cdba40ae62eacba05a3' }
+2020-09-14 17:40:53,516 ERROR 84980 [-/10.11.170.65/-/60ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.log is not a function
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84980
+hostname: KING-20190716EU
+
+2020-09-14 17:41:21,106 INFO 84980 [-/10.11.170.65/-/51ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '98c5e25bd4588222a84ede965dec4cc6' }
+2020-09-14 17:41:21,155 ERROR 84980 [-/10.11.170.65/-/84ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.log is not a function
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 84980
+hostname: KING-20190716EU
+
+2020-09-14 17:42:50,463 INFO 35004 [-/10.11.170.65/-/37ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '49dd50cea037d9b09ae31b0c0937ca31' }
+2020-09-14 17:42:50,476 ERROR 35004 [-/10.11.170.65/-/46ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.app.config.customLogger.log is not a function
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 35004
+hostname: KING-20190716EU
+
+2020-09-14 17:42:53,554 INFO 35004 [-/10.11.170.65/-/36ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '60d777fce18283c6ac04e23291b1fc4b' }
+2020-09-14 17:42:53,566 ERROR 35004 [-/10.11.170.65/-/42ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.app.config.customLogger.log is not a function
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 35004
+hostname: KING-20190716EU
+
+2020-09-14 17:42:54,233 INFO 35004 [-/10.11.170.65/-/27ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: '7dee5cd658855dcba2af5f0c738d2c8b' }
+2020-09-14 17:42:54,240 ERROR 35004 [-/10.11.170.65/-/30ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.app.config.customLogger.log is not a function
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 35004
+hostname: KING-20190716EU
+
+2020-09-14 17:42:54,965 INFO 35004 [-/10.11.170.65/-/138ms GET /login?account=test&pwd=test] { code: 1,
+  msg: '登录成功',
+  token: 'e6a91d0562b179ae8011c465ca380a52' }
+2020-09-14 17:42:54,985 ERROR 35004 [-/10.11.170.65/-/146ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.app.config.customLogger.log is not a function
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 35004
+hostname: KING-20190716EU
+
