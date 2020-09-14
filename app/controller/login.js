@@ -5,10 +5,9 @@ const utility = require('utility');
 class LoginController extends Controller {
     async login() {
         const {ctx} = this;
-        const {errorCode} = ctx.app.config;
+        const {errorCode,GLOBAL} = ctx.app.config;
         const objParams = ctx.query;
         const {account, pwd} = objParams;
-
         /**
          * 账号或者密码错误
          */
@@ -37,7 +36,7 @@ class LoginController extends Controller {
             const timeStamp = new Date().getTime();
             const userId = await ctx.service.user.getUserIdByName(account);
             await ctx.service.login.recordLoginIp(account, timeStamp);
-            await ctx.service.redis.set(utility.md5(timeStamp + account), {userId, account}, 500);
+            await ctx.service.redis.set(utility.md5(timeStamp + account), {userId, account}, GLOBAL.TOKEN_EXPIRE);
             userInfo.token = utility.md5(timeStamp + account);
         }
         ctx.body = userInfo;

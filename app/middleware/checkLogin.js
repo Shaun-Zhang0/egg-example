@@ -7,7 +7,7 @@
 module.exports = (options, app) => {
     return async function checkLogin(ctx, next) {
         const {cookiesObj} = ctx; // 获取cookie的信息
-        const {errorCode} = ctx.app.config;
+        const {errorCode,GLOBAL} = ctx.app.config;
         if (cookiesObj && cookiesObj.key) {
             /**
              * 判断redis中是否存在该token
@@ -17,6 +17,7 @@ module.exports = (options, app) => {
              */
             const accountInfo = await ctx.service.redis.get(cookiesObj.key);
             if (accountInfo) {
+                await ctx.service.redis.expireTokenLiveTime(cookiesObj.key, GLOBAL.TOKEN_EXPIRE); // 将用户token延长有效时间
                 await next();
             } else {
                 ctx.body = errorCode.NOT_LOGIN;

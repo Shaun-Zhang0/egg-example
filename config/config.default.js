@@ -44,16 +44,17 @@ exports.middleware = ['checkLogin', 'errorHandler'];
 
 exports.checkLogin = {
     enable: true,
-    ignore: ['/login', '/register','/get_product']
+    ignore: ['/login', '/register', '/get_product']
 };
-// exports.middleware = ['checkLogin']
-// // 配置forbidIp中间件的参数
-// exports.forbidIp = {
-//     forbidIps: ['127.0.0.1']
-// }
+// 关闭csrf
 exports.security = {csrf: {enable: false}};
+// 设置日志输入为JSON格式
 exports.logger = {
     outputJSON: true,
 };
-
+// 错误码
 exports.errorCode = errorCode;
+// 全局常量
+exports.GLOBAL = {
+    TOKEN_EXPIRE: 500 // token 过期时间
+};

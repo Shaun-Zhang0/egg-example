@@ -42,8 +42,17 @@ feat:
 - 添加login的用户二次登录时 删除原先token的操作
 - 解决如果登录请求不带cookie 报错的情况
 - 添加login_record登录信息表 用于记录用户名、登录、以及时间
+
 ---
 ### 2020-09-11
 
 feat:
 - 添加Order、product 控制器
+
+---
+### 2020-09-14
+
+feat: 
+- 在config.defalut.js 添加常量配置(TOKEN_EXPIRES token的过期时间)
+- 更新 redisService 中的方法 (getLiveTime[获取token剩余时间]、expireTokenLiveTime[重新设置key的剩余时间])
+- 在middleware/checkLogin.js中添加延长token的有效时间

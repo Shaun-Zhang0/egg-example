@@ -145,7 +145,14 @@
     "PRODUCT_NOT_EXIST": {
       "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
       "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "CREATE_ORDER_ERROR": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
     }
+  },
+  "GLOBAL": {
+    "TOKEN_EXPIRE": "D:\\projects\\egg.js_example\\config\\config.default.js"
   },
   "session": {
     "maxAge": "D:\\projects\\egg.js_example\\node_modules\\egg-session\\config\\config.default.js",

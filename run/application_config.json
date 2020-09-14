@@ -397,6 +397,9 @@
         "message": "创建订单失败"
       }
     },
+    "GLOBAL": {
+      "TOKEN_EXPIRE": 500
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",

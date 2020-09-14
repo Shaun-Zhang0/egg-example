@@ -39,6 +39,27 @@ class RedisService extends Service {
         const {redis} = this.app;
         await redis.del(key);
     }
+
+    /**
+     * 重新设置过期时间
+     * @param key
+     * @param time
+     * @returns {Promise<void>}
+     */
+    async expireTokenLiveTime(key,time){
+        const {redis} = this.app;
+        await redis.expire(key,time)
+    }
+    /**
+     * 获取过期时间
+     * @param key
+     * @returns {Promise<number>}
+     */
+    async getLiveTime(key){
+        const {redis} = this.app;
+        const time = await redis.ttl(key);
+        return time;
+    }
 }
 
 module.exports = RedisService;
