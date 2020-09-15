@@ -1,264 +1,132 @@
-2020-09-14 09:51:57,072 ERROR 178088 nodejs.ServerNoResponseError: server 127.0.0.1:58611 no response in 21307ms, maybe the socket is end on the other side. (address: 127.0.0.1:58611)
-    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:427:21)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ServerNoResponseError"
-pid: 178088
+2020-09-15 10:24:36,742 ERROR 27776 [-/10.11.170.65/-/5ms GET /get_product?id=12] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27776
 hostname: KING-20190716EU
 
-2020-09-14 10:09:09,810 ERROR 109540 nodejs.ClusterClientNoResponseError: client no response in 76537ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-09-15 10:24:40,864 ERROR 27776 [-/10.11.170.65/-/4ms GET /get_product?id=12] nodejs.Error: InternalServerError: 商品不存在
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27776
+hostname: KING-20190716EU
+
+2020-09-15 11:03:01,648 ERROR 78636 [-/10.11.170.65/-/9ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:07,959 ERROR 78636 [-/10.11.170.65/-/5ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:08,665 ERROR 78636 [-/10.11.170.65/-/18ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:09,168 ERROR 78636 [-/10.11.170.65/-/28ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:09,619 ERROR 78636 [-/10.11.170.65/-/4ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:27,283 ERROR 78636 [-/10.11.170.65/-/6042ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:34,639 ERROR 78636 [-/10.11.170.65/-/5ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:35,657 ERROR 78636 [-/10.11.170.65/-/15ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:40,140 ERROR 78636 [-/10.11.170.65/-/19ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:40,876 ERROR 78636 [-/10.11.170.65/-/3ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:41,328 ERROR 78636 [-/10.11.170.65/-/9ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:03:41,648 ERROR 78636 [-/10.11.170.65/-/14ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 78636
+hostname: KING-20190716EU
+
+2020-09-15 11:04:15,155 ERROR 167040 [-/10.11.170.65/-/16ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 167040
+hostname: KING-20190716EU
+
+2020-09-15 11:06:05,654 ERROR 167040 [-/10.11.170.65/-/18ms GET /create_order?product_id=1&product_num=12] nodejs.Error: Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:13:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 167040
+hostname: KING-20190716EU
+
+2020-09-15 11:20:32,500 ERROR 122340 nodejs.ClusterClientNoResponseError: client no response in 60410ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 109540
+pid: 122340
 hostname: KING-20190716EU
 
-2020-09-14 10:10:17,555 ERROR 109540 nodejs.unhandledExceptionError: read ECONNRESET
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ECONNRESET"
-code: "ECONNRESET"
-syscall: "read"
-name: "unhandledExceptionError"
-pid: 109540
-hostname: KING-20190716EU
-
-2020-09-14 10:11:29,819 ERROR 109540 nodejs.ClusterClientNoResponseError: client no response in 70064ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-09-15 11:23:52,514 ERROR 122340 nodejs.ClusterClientNoResponseError: client no response in 79245ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 109540
-hostname: KING-20190716EU
-
-2020-09-14 10:14:12,657 ERROR 189860 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:58599)
-    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
-    at writeGeneric (internal/stream_base_commons.js:73:3)
-    at Socket._writeGeneric (net.js:713:5)
-    at Socket._write (net.js:725:8)
-    at doWrite (_stream_writable.js:415:12)
-    at writeOrBuffer (_stream_writable.js:399:5)
-    at Socket.Writable.write (_stream_writable.js:299:11)
-    at Follower.sendHeartBeat (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:105:18)
-    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:437:12)
-    at ontimeout (timers.js:436:11)
-errno: "ECONNABORTED"
-code: "ECONNABORTED"
-syscall: "write"
-name: "ECONNABORTEDError"
-pid: 189860
-hostname: KING-20190716EU
-
-2020-09-14 10:15:49,833 ERROR 109540 nodejs.ClusterClientNoResponseError: client no response in 66868ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 109540
-hostname: KING-20190716EU
-
-2020-09-14 10:27:55,243 ERROR 78028 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:58599)
-    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
-    at writeGeneric (internal/stream_base_commons.js:73:3)
-    at Socket._writeGeneric (net.js:713:5)
-    at Socket._write (net.js:725:8)
-    at doWrite (_stream_writable.js:415:12)
-    at writeOrBuffer (_stream_writable.js:399:5)
-    at Socket.Writable.write (_stream_writable.js:299:11)
-    at Follower.sendHeartBeat (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:105:18)
-    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:437:12)
-    at ontimeout (timers.js:436:11)
-errno: "ECONNABORTED"
-code: "ECONNABORTED"
-syscall: "write"
-name: "ECONNABORTEDError"
-pid: 78028
-hostname: KING-20190716EU
-
-2020-09-14 10:29:29,890 ERROR 109540 nodejs.ClusterClientNoResponseError: client no response in 74591ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 109540
-hostname: KING-20190716EU
-
-2020-09-14 10:29:57,150 ERROR 109540 nodejs.unhandledExceptionError: read ECONNRESET
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ECONNRESET"
-code: "ECONNRESET"
-syscall: "read"
-name: "unhandledExceptionError"
-pid: 109540
-hostname: KING-20190716EU
-
-2020-09-14 10:32:08,988 ERROR 112076 nodejs.ClusterClientNoResponseError: client no response in 77971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 112076
-hostname: KING-20190716EU
-
-2020-09-14 14:42:55,796 ERROR 93284 [-/10.11.170.65/-/6ms GET /get_product?account=test&pwd=test] nodejs.Error: InternalServerError: 商品不存在
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 93284
-hostname: KING-20190716EU
-
-2020-09-14 14:42:57,371 ERROR 93284 [-/10.11.170.65/-/15ms GET /get_product?account=test&pwd=test] nodejs.Error: InternalServerError: 商品不存在
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 93284
-hostname: KING-20190716EU
-
-2020-09-14 14:43:10,756 ERROR 93284 [-/10.11.170.65/-/2ms GET /get_product?id=2] nodejs.Error: InternalServerError: 商品不存在
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 93284
-hostname: KING-20190716EU
-
-2020-09-14 14:43:12,039 ERROR 93284 [-/10.11.170.65/-/17ms GET /get_product?id=3] nodejs.Error: InternalServerError: 商品不存在
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 93284
-hostname: KING-20190716EU
-
-2020-09-14 14:43:13,275 ERROR 93284 [-/10.11.170.65/-/7ms GET /get_product?id=2] nodejs.Error: InternalServerError: 商品不存在
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 93284
-hostname: KING-20190716EU
-
-2020-09-14 14:46:48,391 ERROR 179900 nodejs.ClusterClientNoResponseError: client no response in 64230ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 179900
-hostname: KING-20190716EU
-
-2020-09-14 16:48:48,233 ERROR 93284 [-/10.11.170.65/-/7368320ms GET /get_product?id=12] nodejs.Error: InternalServerError: 商品不存在
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:12:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 93284
-hostname: KING-20190716EU
-
-2020-09-14 16:48:48,259 ERROR 93284 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:63877)
-    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
-    at writeGeneric (internal/stream_base_commons.js:73:3)
-    at Socket._writeGeneric (net.js:713:5)
-    at Socket._write (net.js:725:8)
-    at doWrite (_stream_writable.js:415:12)
-    at writeOrBuffer (_stream_writable.js:399:5)
-    at Socket.Writable.write (_stream_writable.js:299:11)
-    at Follower.sendHeartBeat (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:105:18)
-    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:437:12)
-    at ontimeout (timers.js:436:11)
-errno: "ECONNABORTED"
-code: "ECONNABORTED"
-syscall: "write"
-name: "ECONNABORTEDError"
-pid: 93284
-hostname: KING-20190716EU
-
-2020-09-14 16:49:48,863 ERROR 179900 nodejs.ClusterClientNoResponseError: client no response in 60556ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 179900
-hostname: KING-20190716EU
-
-2020-09-14 16:51:08,869 ERROR 179900 nodejs.ClusterClientNoResponseError: client no response in 66444ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 179900
-hostname: KING-20190716EU
-
-2020-09-14 16:53:14,471 ERROR 212912 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:63877)
-    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
-    at writeGeneric (internal/stream_base_commons.js:73:3)
-    at Socket._writeGeneric (net.js:713:5)
-    at Socket._write (net.js:725:8)
-    at doWrite (_stream_writable.js:415:12)
-    at writeOrBuffer (_stream_writable.js:399:5)
-    at Socket.Writable.write (_stream_writable.js:299:11)
-    at Follower.sendHeartBeat (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:105:18)
-    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\projects\egg.js_example\node_modules\tcp-base\lib\base.js:437:12)
-    at ontimeout (timers.js:436:11)
-errno: "ECONNABORTED"
-code: "ECONNABORTED"
-syscall: "write"
-name: "ECONNABORTEDError"
-pid: 212912
-hostname: KING-20190716EU
-
-2020-09-14 17:40:53,505 ERROR 84980 [-/10.11.170.65/-/60ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.log is not a function
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 84980
-hostname: KING-20190716EU
-
-2020-09-14 17:41:21,139 ERROR 84980 [-/10.11.170.65/-/84ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.log is not a function
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 84980
-hostname: KING-20190716EU
-
-2020-09-14 17:42:50,470 ERROR 35004 [-/10.11.170.65/-/46ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.app.config.customLogger.log is not a function
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 35004
-hostname: KING-20190716EU
-
-2020-09-14 17:42:53,561 ERROR 35004 [-/10.11.170.65/-/42ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.app.config.customLogger.log is not a function
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 35004
-hostname: KING-20190716EU
-
-2020-09-14 17:42:54,236 ERROR 35004 [-/10.11.170.65/-/30ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.app.config.customLogger.log is not a function
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 35004
-hostname: KING-20190716EU
-
-2020-09-14 17:42:54,973 ERROR 35004 [-/10.11.170.65/-/146ms GET /login?account=test&pwd=test] nodejs.Error: TypeError: ctx.app.config.customLogger.log is not a function
-    at errorHandler (D:\projects\egg.js_example\app\middleware\errorHandler.js:14:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 35004
+pid: 122340
 hostname: KING-20190716EU
 
