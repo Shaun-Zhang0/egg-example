@@ -56,3 +56,8 @@ feat:
 - 在config.defalut.js 添加常量配置(TOKEN_EXPIRES token的过期时间)
 - 更新 redisService 中的方法 (getLiveTime[获取token剩余时间]、expireTokenLiveTime[重新设置key的剩余时间])
 - 在middleware/checkLogin.js中添加延长token的有效时间
+
+### 2020-09-15
+
+feat: 
+- 完成create_order 创建订单业务逻辑

@@ -395,6 +395,10 @@
       "CREATE_ORDER_ERROR": {
         "code": -40001,
         "message": "创建订单失败"
+      },
+      "PRODUCT_INVENTORY_QUANTITY": {
+        "code": -40002,
+        "message": "商品库存不足"
       }
     },
     "GLOBAL": {

@@ -1,5 +1,6 @@
 // config/config.default.js
 const errorCode = require("./errorCode");
+
 exports.keys = '11111111111111';
 // 添加 view 配置
 exports.view = {

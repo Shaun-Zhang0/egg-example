@@ -10,7 +10,7 @@ class OrderController extends Controller {
         }
         const productInfo = await ctx.service.product.findProductById(product_id);
         if (!productInfo) {
-            ctx.throw(errorCode.PRODUCT_NOT_EXIST)
+            ctx.throw(errorCode.PRODUCT_NOT_EXIST);
         }
         const timeStamp = new Date().getTime();
         const orderInfo = await ctx.service.order.create({product_id, product_num, timeStamp});

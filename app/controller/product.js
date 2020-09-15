@@ -12,6 +12,7 @@ class ProductController extends Controller {
             ctx.throw(errorCode.PRODUCT_NOT_EXIST);
         }
     }
+
 }
 
 module.exports = ProductController;
