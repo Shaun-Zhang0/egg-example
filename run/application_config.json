@@ -219,7 +219,7 @@
     },
     "env": "local",
     "name": "egg-example",
-    "keys": "<String len: 14>",
+    "keys": "<String len: 6>",
     "cookies": {},
     "proxy": false,
     "maxIpsCount": 0,

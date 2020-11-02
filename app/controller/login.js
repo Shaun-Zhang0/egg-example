@@ -12,7 +12,6 @@ class LoginController extends Controller {
          * 账号或者密码错误
          */
         if (!account || !pwd) {
-            // ctx.throw(errorCode.PARAMS_EMPTY);
             this.fail(errorCode.PARAMS_EMPTY);
             return false;
         }
@@ -23,7 +22,7 @@ class LoginController extends Controller {
         if (cookiesObj && cookiesObj.key) {
             const hasToken = await ctx.service.redis.get(cookiesObj.key);
             /**
-             * 判断key的value值是否存在redis中 如果存在
+             * 判断key的value值是否存在redis中 如果存在 删除redis存有的
              */
             !!hasToken && await ctx.service.redis.delete(cookiesObj.key);
         }

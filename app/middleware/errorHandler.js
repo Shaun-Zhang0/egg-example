@@ -8,9 +8,12 @@ module.exports = (option, app) => {
     return async function errorHandler(ctx, next) {
         try {
             await next();
-            ctx.logger.info(ctx.body);
+            ctx.swLog.info(err,'success');
+            // ctx.logger.info(ctx.body);
         } catch (err) {
-            ctx.logger.error(new Error(err));
+            // ctx.getLogger.log(err);
+            ctx.swLog.info(err,'fail');
+            // ctx.logger.error(new Error(err));
             ctx.body = err;
         }
     };

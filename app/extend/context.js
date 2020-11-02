@@ -1,3 +1,5 @@
+const CustomLogger = require('./CustomLogger');
+
 module.exports = {
     /**
      * 获取请求带的cookie字符串 并转换为对象(便于获取cookie的值)
@@ -17,5 +19,8 @@ module.exports = {
             obj[itemArr[0]] = itemArr[1];
         }
         return obj;
+    },
+    get swLog() {
+        return CustomLogger(this);
     }
 };
