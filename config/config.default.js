@@ -57,5 +57,5 @@ exports.logger = {
 exports.errorCode = errorCode;
 // 全局常量
 exports.GLOBAL = {
-    TOKEN_EXPIRE: 500 // token 过期时间
+    TOKEN_EXPIRE: 500 // token 过期时间 单位: s
 };

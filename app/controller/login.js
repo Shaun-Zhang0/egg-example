@@ -1,5 +1,5 @@
-const Controller = require('egg').Controller;
-
+// const Controller = require('egg').Controller;
+const Controller = require('../core/base_controller');
 const utility = require('utility');
 
 class LoginController extends Controller {
@@ -12,7 +12,8 @@ class LoginController extends Controller {
          * 账号或者密码错误
          */
         if (!account || !pwd) {
-            ctx.throw(errorCode.PARAMS_EMPTY);
+            // ctx.throw(errorCode.PARAMS_EMPTY);
+            this.fail(errorCode.PARAMS_EMPTY);
             return false;
         }
         const {cookiesObj} = ctx; // 获取cookie的信息
@@ -38,8 +39,11 @@ class LoginController extends Controller {
             await ctx.service.login.recordLoginIp(account, timeStamp);
             await ctx.service.redis.set(utility.md5(timeStamp + account), {userId, account}, GLOBAL.TOKEN_EXPIRE);
             userInfo.token = utility.md5(timeStamp + account);
+            this.success(userInfo);
+        }else{
+            this.fail(userInfo)
         }
-        ctx.body = userInfo;
+
     }
 
 

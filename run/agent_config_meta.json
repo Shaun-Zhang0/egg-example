@@ -149,6 +149,10 @@
     "CREATE_ORDER_ERROR": {
       "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
       "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
+    },
+    "PRODUCT_INVENTORY_QUANTITY": {
+      "code": "D:\\projects\\egg.js_example\\config\\config.default.js",
+      "message": "D:\\projects\\egg.js_example\\config\\config.default.js"
     }
   },
   "GLOBAL": {
