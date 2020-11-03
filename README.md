@@ -57,7 +57,16 @@ feat:
 - 更新 redisService 中的方法 (getLiveTime[获取token剩余时间]、expireTokenLiveTime[重新设置key的剩余时间])
 - 在middleware/checkLogin.js中添加延长token的有效时间
 
+---
 ### 2020-09-15
 
 feat: 
 - 完成create_order 创建订单业务逻辑
+
+---
+### 2020-11-03
+
+feat: 
+- 完成自定义日志的封装 参考 [https://juejin.im/post/6844903703829299208]
+- 添加BaseController 将成功和失败状态统一管理
+- 更改所有的Controller 继承BaseController

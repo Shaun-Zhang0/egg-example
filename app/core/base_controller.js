@@ -1,16 +1,19 @@
-const {Controller}  = require('egg');
+const {Controller} = require('egg');
+
 class BaseController extends Controller {
-    success(data){
+    success(data) {
         this.ctx.body = {
-            state:'success',
+            state: 'success',
             ...data
         }
     }
-    fail(data){
+
+    fail(data) {
         this.ctx.throw({
-            state:'failed',
+            state: 'failed',
             ...data
         })
     }
 }
+
 module.exports = BaseController;

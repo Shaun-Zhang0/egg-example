@@ -1,3 +1,8 @@
+/**
+ * @Description: 自定义日志格式
+ * @author XiaoFengZhang
+ * @date 2020/11/3
+ */
 const FileTransport = require('egg-logger').FileTransport;
 const moment = require('moment');
 
@@ -26,6 +31,8 @@ class CoustomTransport extends FileTransport {
         const requestIP = `[${this.ctx.request.ip}]`;
         return `${timeStr}${threadNameStr}${requestIP}${urlStr}`;
     }
+
+
 }
 
 module.exports = CoustomTransport;

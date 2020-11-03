@@ -1,4 +1,4 @@
-const Controller = require("egg").Controller;
+const Controller = require('../core/base_controller');
 
 class RegisterController extends Controller {
     async register() {
@@ -6,10 +6,14 @@ class RegisterController extends Controller {
         const {errorCode} = ctx.app.config;
         const {account, password} = ctx.request.body;
         if (!account || !password) {
-            ctx.throw(errorCode.PARAMS_EMPTY);
+            this.fail(errorCode.PARAMS_EMPTY);
         } else {
             const userRegister = await ctx.service.register.addUser({account, password});
-            ctx.body = userRegister;
+            if (userRegister.code > 0) {
+                this.success(userRegister);
+            } else {
+                this.fail(userRegister);
+            }
         }
     }
 }

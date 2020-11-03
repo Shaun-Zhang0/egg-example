@@ -20,7 +20,11 @@ module.exports = {
         }
         return obj;
     },
-    get swLog() {
-        return CustomLogger(this);
+    get successLog(){
+        return CustomLogger.successLog(this)
+    },
+    get failLog(){
+        return CustomLogger.failLog(this)
     }
+
 };

@@ -1,4 +1,9 @@
-// const Controller = require('egg').Controller;
+/**
+ * @Description: 登录 - 控制器
+ * @author Xiaofeng Zhang
+ * @date 2020/11/3
+*/
+
 const Controller = require('../core/base_controller');
 const utility = require('utility');
 

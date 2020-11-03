@@ -1,4 +1,4 @@
-const Controller = require('egg').Controller;
+const Controller = require('../core/base_controller');
 
 class ProductController extends Controller {
     async getProductInfo() {
@@ -7,9 +7,9 @@ class ProductController extends Controller {
         const objParams = ctx.query;
         const productInfo = await ctx.service.product.findProductById(objParams.id);
         if (productInfo) {
-            ctx.body = productInfo;
+            this.success(productInfo)
         } else {
-            ctx.throw(errorCode.PRODUCT_NOT_EXIST);
+            this.fail(errorCode.PRODUCT_NOT_EXIST);
         }
     }
 

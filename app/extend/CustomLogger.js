@@ -1,3 +1,8 @@
+/**
+ * @Description: 自定义日志封装
+ * @author Xiaofeng Zhang
+ * @date 2020/11/3
+*/
 const Logger = require('egg-logger').Logger;
 const CoustomTransport = require('./CoustomTransport.js');
 const logger = new Logger();

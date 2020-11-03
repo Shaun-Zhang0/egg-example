@@ -17,7 +17,7 @@ module.exports = (options, app) => {
              */
             const accountInfo = await ctx.service.redis.get(cookiesObj.key);
             if (accountInfo) {
-                await ctx.service.redis.expireTokenLiveTime(cookiesObj.key, GLOBAL.TOKEN_EXPIRE); // 将用户token延长有效时间
+                await ctx.service.redis.expireTokenLiveTime(cookiesObj.key, GLOBAL.TOKEN_EXPIRE); // 用户token延长有效时间
                 await next();
             } else {
                 ctx.body = errorCode.NOT_LOGIN;

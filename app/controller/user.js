@@ -1,11 +1,11 @@
-const Controller = require('egg').Controller;
+const Controller = require('../core/base_controller');
 class UserController extends Controller{
     async info(){
         const {ctx} = this;
         const userId = ctx.params.id;
         const {errorCode} = ctx.app.config;
         if(!userId){
-            ctx.throw(errorCode.PARAMS_EMPTY);
+            this.fail(errorCode.PARAMS_EMPTY);
         }else{
             const userInfo = await ctx.service.user.find(userId);
             /**
@@ -13,9 +13,9 @@ class UserController extends Controller{
              * 不存在 则抛出异常
              */
             if(userInfo){
-                ctx.body = userInfo;
+                this.success(userInfo);
             }else{
-                ctx.throw(errorCode.USER_NOT_EXIST)
+                this.fail(errorCode.USER_NOT_EXIST)
             }
         }
     }
